@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+# Author: Eddie Villasenor (edward.villasenor@gmail.com)
+
 from PIL import Image
 
 def print_image_to_terminal(region):
