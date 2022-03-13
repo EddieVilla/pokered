@@ -2,6 +2,8 @@
 
 # Author: Eddie Villasenor (edward.villasenor@gmail.com)
 
+import sys
+
 from PIL import Image
 
 def print_image_to_terminal(region):
@@ -23,7 +25,7 @@ def print_image_to_terminal(region):
 def main():
     crop = False
     #imgpath = "./red.png"
-    imgpath = "./snorlax.png"
+    imgpath = sys.argv[1]
     im = Image.open(imgpath).convert('RGB')
 
     if crop:
